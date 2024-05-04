@@ -43,7 +43,7 @@ public class PlaylistActivity extends AppCompatActivity {
 
 
                 Intent intent = new Intent(PlaylistActivity.this, youtubeActivity.class);
-                intent.putExtra("videoUrl", videoUrl);
+                intent.putExtra("VIDEO_URL", videoUrl);
                 startActivity(intent);
             }
         });

@@ -40,7 +40,7 @@ public class VideoPlayerActivity extends AppCompatActivity {
                 if (!url.isEmpty()) {
                     // 实现播放逻辑
                     Intent intent = new Intent(VideoPlayerActivity.this, youtubeActivity.class);
-                    intent.putExtra("videoUrl", url);
+                    intent.putExtra("VIDEO_URL", url);
                     startActivity(intent);
                 } else {
                     Toast.makeText(VideoPlayerActivity.this, "Please enter the video URL", Toast.LENGTH_SHORT).show();
