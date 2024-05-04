@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_detail_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    tools:context=".NewsDetailFragment">
+
+
+
+    <LinearLayout
+        android:id="@+id/new_detail_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="1500dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/news_detail_title"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginLeft="10dp"
+            android:text="@string/news1_title"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <ImageView
+            android:id="@+id/news_detail_image"
+            android:layout_width="340dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/news1" />
+        <TextView
+            android:id="@+id/news_detail_desc"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/news1_desc"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>
